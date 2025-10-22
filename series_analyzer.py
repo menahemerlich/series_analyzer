@@ -40,17 +40,17 @@ def sum_parameter(list):
     return sum
 
 while True:
-    menu = print("==Series Analyzer - Menu==\n "
-                 "1. Input a new series\n "
-                 "2. Display the series\n "
-                 "3. Display the series\n "
-                 "4. Display the series\n "
-                 "5. Display the Max value\n "
-                 "6. Display the Min value\n "
-                 "7. Display the average value\n "
-                 "8. Display the number of elements\n "
-                 "9. Display the Sum of the series\n "
-                 "0. Exit")
+    print("==Series Analyzer - Menu==\n "
+          "1. Input a new series\n "
+          "2. Display the series\n "
+          "3. Display the series\n "
+          "4. Display the series\n "
+          "5. Display the Max value\n "
+          "6. Display the Min value\n "
+          "7. Display the average value\n "
+          "8. Display the number of elements\n "
+          "9. Display the Sum of the series\n "
+          "0. Exit")
     choice = input('enter your choice.. ')
     if choice == "1":
         series = []
@@ -75,5 +75,3 @@ while True:
         break
     else:
         print("Syntax error! ")
-
-    
